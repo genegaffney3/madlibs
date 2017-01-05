@@ -5,7 +5,7 @@
 print('Pick an adjective')
 
 #Has the user input an adjective which gets saved as the string adj1
-adj1 = input()
+adj1 = raw_input()
 
 #***Use the story prompt below to ask the user for the remaining words to complete the story***
 
