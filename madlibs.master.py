@@ -8,13 +8,13 @@ print('Pick an adjective')
 adj1 = input()
 
 #***Use the story prompt below to ask the user for the remaining words to complete the story***
-print('Pick a plural noun ')
-noun = input()
-print ('Pick an activity')
-noun2 = input()
+print 'Pick a plural noun '
+noun = raw_input()
+print 'Pick an activity'
+noun2 = raw_input()
 
 #This is where the story for each mad lib will go
-print('Roses are ' + adj1)
-print(noun + ' are blue')
-print('I love ' + noun2)
-print('And so do you!')
+print 'Roses are ' + adj1
+print noun + ' are blue'
+print 'I love ' + noun2
+print 'And so do you!'
